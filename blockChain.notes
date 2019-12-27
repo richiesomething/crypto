@@ -1,0 +1,48 @@
+-----------------------------------------------------------
+    SECTION 2: BLOCKS | THE BLOCKCHAIN BACKEND
+-----------------------------------------------------------
+
+
+
+Test Driven Approach:
+is where you test everything
+first write test 
+write code to get the tests to pass
+keep writing code until all pass tests
+
+module.export = ... // way to share files in node.js
+
+
+-----------------------------------------------------------------
+Call Back function:
+call back function = func_name('something', () =>{} )
+
+
+Create Test:
+to create test:
+it('string', call back function)
+inside it use 'expect' 
+
+-----------------------------------------------------------------
+
+GENESIS BLOCK:
+block chain generates hash based on last hash
+first hash has no last hash
+genesis block is the origin of the hash chain
+coded with dummy values
+
+
+
+Config.js:
+where we put hard coded values
+
+
+MINE BLOCK:
+for it test 
+
+
+Crypto Hash and SHA-256:
+secure hash algorith 256
+hash produces a unique value for unique input
+hash is a one way function, cannot decrypt;
+
